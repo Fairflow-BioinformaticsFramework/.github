@@ -26,7 +26,7 @@ Here is an overview of the repositories in this organization and their roles in 
 
 ### Core Framework Tools
 
-* [**Baryon\_SourceCode**](https://github.com/Fairflow-BioinformaticsFramework/Baryon_SourceCode): The **Baryon compiler** (Python). Reads `.bala` specification files and generates ready-to-run scripts for R, Python, Bash, Galaxy, Nextflow, and Streamflow.
+* [**Baryon\_SourceCode**](https://github.com/Fairflow-BioinformaticsFramework/Baryonlang): The **Baryon compiler** (Python). Reads `.bala` specification files and generates ready-to-run scripts for R, Python, Bash, Galaxy, Nextflow, and Streamflow.
 * [**DockerBuilder**](https://github.com/Fairflow-BioinformaticsFramework/DockerBuilder): Helper scripts and templates for building **reproducible Docker images** using CREDO. Safeguards against "dependency drift".
 
 ### Galaxy Integration
@@ -45,11 +45,6 @@ FairFlow makes it easy to bring your tools into Galaxy without complex configura
 * [**CAR-NGS**](https://github.com/Fairflow-BioinformaticsFramework/CAR-NGS): The **Frontend**. Contains the auto-generated R functions that users install to run analyses.
 * [**CAR-NGS\_Backend**](https://github.com/Fairflow-BioinformaticsFramework/CAR-NGS_Backend): The **Backend**. Contains the Docker build contexts (scripts, Dockerfiles) for the pipelines.
 
-### Helper Libraries
-
-* [**rrundocker**](https://github.com/Fairflow-BioinformaticsFramework/rrundocker): R utility for managing Docker execution.
-* [**normalizepath**](https://github.com/Fairflow-BioinformaticsFramework/normalizepath): Path handling utility ensuring cross-platform compatibility (Windows/POSIX).
-* [**withscratch**](https://github.com/Fairflow-BioinformaticsFramework/withscratch): Helper for managing scratch/temporary directories in analysis workflows.
 
 ---
 
