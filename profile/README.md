@@ -26,7 +26,7 @@ Here is an overview of the repositories in this organization and their roles in 
 
 ### Core Framework Tools
 
-* [**Baryon\_SourceCode**](https://github.com/Fairflow-BioinformaticsFramework/Baryonlang): The **Baryon compiler** (Python). Reads `.bala` specification files and generates ready-to-run scripts for R, Python, Bash, Galaxy, Nextflow, and Streamflow.
+* [**Baryonlang**](https://github.com/Fairflow-BioinformaticsFramework/Baryonlang): The **Baryon compiler** (Python). Reads `.bala` specification files and generates ready-to-run scripts for R, Python, Bash, Galaxy, Nextflow, and Streamflow.
 * [**DockerBuilder**](https://github.com/Fairflow-BioinformaticsFramework/DockerBuilder): Helper scripts and templates for building **reproducible Docker images** using CREDO. Safeguards against "dependency drift".
 
 ### Galaxy Integration
